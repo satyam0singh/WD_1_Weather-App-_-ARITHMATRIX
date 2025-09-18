@@ -15,7 +15,7 @@ The app uses the **OpenWeather Current Weather API**:
 ---
 
 ## 📁 Repository Structure
-repo/
+repo/<br>
 ├── index.html # Main HTML structure <br>
 ├── style.css # Styling (responsive, accessible)<br>
 ├── script.js # JavaScript (API fetch, DOM updates)<br>
