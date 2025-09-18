@@ -1,5 +1,5 @@
 
-const API_KEY = "a688188da453e2e47e82080db01207b8";
+const API_KEY = "YOUR_API_KEY";
 
 // Elements
 const form = document.getElementById("searchForm");
