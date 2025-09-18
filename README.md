@@ -24,9 +24,6 @@ repo/<br>
 │ └── error.png<br>
 ├── README.md # Documentation<br>
 
-yaml
-Copy code
-
 ---
 
 ## 🚀 Features
@@ -54,18 +51,19 @@ Get your free API key from OpenWeather.
 Open script.js and update:
 const API_KEY = "your_api_key_here";
 
+---
 # 📸 Demo
 * ✅ Successful Search
 * ❌ Invalid Input
-
+---
 # 🛠️ Tech Stack
 * Frontend: HTML, CSS, JavaScript
 * API: OpenWeather (Current Weather)
 * Hosting: Netlify
-
+---
 📜 License
 MIT License © 2025 Satyam Singh
-
+---
 🙌 Acknowledgements
 * OpenWeather for the free weather API
 * Netlify for seamless deployment
