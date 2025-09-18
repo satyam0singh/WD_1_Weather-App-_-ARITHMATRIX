@@ -59,9 +59,9 @@ const API_KEY = "your_api_key_here";
 * API: OpenWeather (Current Weather)
 * Hosting: Netlify
 ---
-##📜 License
+📜 License
 MIT License © 2025 Satyam Singh
 ---
-##🙌 Acknowledgements
+🙌 Acknowledgements
 * OpenWeather for the free weather API
 * Netlify for seamless deployment
