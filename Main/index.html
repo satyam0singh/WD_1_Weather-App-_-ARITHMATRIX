@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ArithMatrix Weather — Current Conditions</title>
+  <meta name="description"
+    content="ArithMatrix Weather — fast, accessible and reliable current weather for any city. Built on the OpenWeather API with a polished UI." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body> <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">☁️</div>
+        <div class="brand-text"> <strong>ArithMatrix Weather</strong> <small class="muted">Fast • Accessible •
+            Reliable</small> </div>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="page container" role="main" aria-labelledby="appTitle">
+    <section class="hero card">
+      <h1 id="appTitle">Weather Now</h1>
+      <p class="lead">Enter a city or coordinates (lat,lon) to get current weather powered by OpenWeather.</p>
+      <form id="searchForm" class="search-form" role="search" novalidate> <label for="cityInput" class="sr-only">City
+          name or coordinates</label>
+        <div class="input-row"> <input id="cityInput" name="city" type="search" inputmode="text" autocomplete="off"
+            placeholder="e.g., London or 28.7041,77.1025" aria-label="City name or coordinates" required /> <button
+            id="searchBtn" type="submit" aria-label="Search">Search</button> </div>
+        <div id="feedback" role="status" aria-live="polite" class="feedback" hidden></div>
+      </form>
+    </section>
+    <section id="weatherCard" class="weather-card card" aria-live="polite" hidden>
+      <div class="location-row">
+        <div class="location-info">
+          <h2 id="cityName" class="location-name">—</h2>
+          <div id="country" class="muted location-country">—</div>
+        </div>
+        <div class="last-updated"> <time id="lastUpdatedTime" datetime="">Last update: —</time> </div>
+      </div>
+      <div class="weather-main">
+        <figure class="icon-wrapper" aria-hidden="true">
+          <!-- Inline SVG used instead of <img>. Replace or update the inner SVG via JS. --> <svg id="weatherIcon"
+            width="96" height="96" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false">
+            <!-- default: simple sun icon (decorative) -->
+            <defs>
+              <style>
+                .sun {
+                  fill: #FFD166
+                }
+              </style> .ray{stroke:#FFD166; stroke-width:2; stroke-linecap:round}</style>
+            </defs>
+            <circle cx="32" cy="32" r="10" class="sun" />
+            <g class="rays" stroke="#FFD166" stroke-width="2" stroke-linecap="round">
+              <line x1="32" y1="4" x2="32" y2="12" />
+              <line x1="32" y1="52" x2="32" y2="60" />
+              <line x1="4" y1="32" x2="12" y2="32" />
+              <line x1="52" y1="32" x2="60" y2="32" />
+              <line x1="12" y1="12" x2="18" y2="18" />
+              <line x1="46" y1="46" x2="52" y2="52" />
+              <line x1="12" y1="52" x2="18" y2="46" />
+              <line x1="46" y1="18" x2="52" y2="12" />
+            </g>
+          </svg> </figure>
+        <div class="details">
+          <div class="temp" id="temperature">—</div>
+          <div class="cond" id="condition">—</div>
+          <div class="meta-row">
+            <div>Humidity: <span id="humidity">—</span></div>
+            <div>Wind: <span id="wind">—</span></div>
+            <div>Visibility: <span id="visibility">—</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="card-footer"> <small>Data source: <a href="https://openweathermap.org/current" target="_blank"
+            rel="noopener noreferrer">OpenWeather API</a></small> </div>
+    </section>
+  </main>
+  <footer class="site-footer container" role="contentinfo">
+    <div class="footer-inner"> <small class="muted">© Weather App — Built with OpenWeather • Version 1.0.0</small>
+    </div>
+  </footer> <noscript>
+    <div class="noscript-warning">JavaScript is required for search functionality. Please enable JavaScript.</div>
+  </noscript>
+  <script src="script.js" defer></script>
+</body>
+
+</html>
