@@ -16,13 +16,13 @@ The app uses the **OpenWeather Current Weather API**:
 
 ## 📁 Repository Structure
 repo/
-├── index.html # Main HTML structure
-├── style.css # Styling (responsive, accessible)
-├── script.js # JavaScript (API fetch, DOM updates)
-├── screenshots/ # App demo screenshots
-│ ├── search.png
-│ └── error.png
-├── README.md # Documentation
+├── index.html # Main HTML structure <br>
+├── style.css # Styling (responsive, accessible)<br>
+├── script.js # JavaScript (API fetch, DOM updates)<br>
+├── screenshots/ # App demo screenshots<br>
+│ ├── search.png<br>
+│ └── error.png<br>
+├── README.md # Documentation<br>
 
 yaml
 Copy code
@@ -51,9 +51,7 @@ Copy code
 index.html
 🔑 API Key Setup
 Get your free API key from OpenWeather.
-
 Open script.js and update:
-
 const API_KEY = "your_api_key_here";
 
 # 📸 Demo
