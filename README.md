@@ -51,8 +51,8 @@ const API_KEY = "your_api_key_here";
 
 
 # 📸 Demo
-* ✅ Successful Search
-* ❌ Invalid Input
+* ✅ Successful Search <img width="1114" height="910" alt="Image" src="https://github.com/user-attachments/assets/a3c56e2e-c2b9-4719-95e8-11b644a2d4e5" />
+* ❌ Invalid Input <img width="1134" height="901" alt="Image" src="https://github.com/user-attachments/assets/4361ded0-9cfe-4947-ae0f-3b4d2c4d8ae2" />
 
 # 🛠️ Tech Stack
 * Frontend: HTML, CSS, JavaScript
