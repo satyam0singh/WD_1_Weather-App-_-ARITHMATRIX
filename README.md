@@ -51,8 +51,10 @@ const API_KEY = "your_api_key_here";
 ```
 ---
 ## 📸 Demo
-* ✅ Successful Search ![image alt][https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/success.png]
-* ❌ Invalid Input ![image alt][[https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/success.png](https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/error.png)]
+* ✅ Successful Search <img width="1114" height="901" alt="success" src="https://github.com/user-attachments/assets/e5f9f008-26e1-46d7-832e-c96b4d19750c" />
+
+* ❌ Invalid Input <img width="1134" height="901" alt="error" src="https://github.com/user-attachments/assets/f86ff868-3bf7-467d-989b-7495727334ef" />
+
 ---
 ## 🛠️ Tech Stack
 * Frontend: HTML, CSS, JavaScript
@@ -62,6 +64,7 @@ const API_KEY = "your_api_key_here";
 📜 License
 MIT License © 2025 Satyam Singh
 ---
-🙌 Acknowledgements
+
+## 🙌 Acknowledgements
 * OpenWeather for the free weather API
 * Netlify for seamless deployment
