@@ -48,20 +48,20 @@ index.html
 Get your free API key from OpenWeather.
 Open script.js and update:
 const API_KEY = "your_api_key_here";
-
-
-# 📸 Demo
+```
+---
+## 📸 Demo
 * ✅ Successful Search ![image alt][https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/success.png]
 * ❌ Invalid Input ![image alt][[https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/success.png](https://github.com/satyam0singh/WD_1_Weather-App-_-ARITHMATRIX/blob/560102b471a395c5fcc19c7e0a4d075cf7c7a83f/SCREENSHOTS/error.png)]
-
-# 🛠️ Tech Stack
+---
+## 🛠️ Tech Stack
 * Frontend: HTML, CSS, JavaScript
 * API: OpenWeather (Current Weather)
 * Hosting: Netlify
-
-📜 License
+---
+##📜 License
 MIT License © 2025 Satyam Singh
-
-🙌 Acknowledgements
+---
+##🙌 Acknowledgements
 * OpenWeather for the free weather API
 * Netlify for seamless deployment
